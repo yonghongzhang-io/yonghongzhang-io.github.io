@@ -1,34 +1,32 @@
 # Yonghong Zhang Academic Homepage
 
-This repository contains a lightweight GitHub Pages site for Yonghong Zhang.
-It is intentionally plain HTML and CSS, with no build step or framework.
+This repository contains the source for my lightweight academic homepage.
 
-Live site:
+The site is intentionally built with plain HTML and CSS: no framework, no build step, and no external runtime dependencies.
+
+## Site content
+
+The homepage presents:
+
+- research profile and interests
+- selected research themes
+- public research systems and demos
+- links to public code and research projects
+
+Public-facing content is intentionally separated from private or anonymous-review research materials.
+
+## Structure
+
+- `index.html` — homepage content and navigation
+- `styles.css` — layout, typography, responsive design
+- `.nojekyll` — tells GitHub Pages to serve the site directly
+
+## Publishing
+
+This repository is named `yonghongzhang-io.github.io`, so when GitHub Pages is enabled from the `main` branch and repository root, the site is served at:
 
 ```text
 https://yonghongzhang-io.github.io/
 ```
-
-## Structure
-
-- `index.html` contains the homepage content and sections.
-- `styles.css` contains the visual design and responsive layout.
-- `.nojekyll` tells GitHub Pages to serve the files directly.
-
-## Editing
-
-Update homepage text, working papers, projects, and links in `index.html`.
-Unknown profile URLs currently use `#` placeholders. Replace each `#` only
-when the real link is available.
-
-Adjust spacing, colors, and responsive behavior in `styles.css`.
-
-## Publishing With GitHub Pages
-
-This repository is named `yonghongzhang-io.github.io`, so GitHub Pages serves
-it as the account homepage at `https://yonghongzhang-io.github.io/`.
-
-Pages should be enabled from the `main` branch and the repository root.
-GitHub Pages will serve `index.html` directly.
 
 For local preview, open `index.html` in a browser.
