@@ -31,7 +31,8 @@ research materials.
   (the sidebar folds above the main column below 860px)
 - `app.js` — scroll-spy navigation, sticky-header hairline, footer year
 - `assets/favicon.svg` — browser tab icon
-- `assets/og-cover.png` — social sharing preview (1200×630)
+- `assets/og-cover-v2.png` — social sharing preview (1200×630). Renaming this
+  file is how you force LinkedIn and friends to drop a cached thumbnail.
 - `assets/Yonghong_Zhang_CV.pdf` — downloadable CV
 - `.nojekyll` — tells GitHub Pages to serve the site directly
 
