@@ -5,156 +5,273 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
-      content="Academic homepage of Yonghong Zhang, PhD candidate at Universidad Autónoma de Madrid working on causal inference, climate policy, and verified AI for empirical research."
+      content="Yonghong Zhang is a PhD candidate in economics at Universidad Autónoma de Madrid, working on causal inference, climate policy evaluation, and the reliability of AI agents in empirical research."
     >
-    <title>Yonghong Zhang | Academic Homepage</title>
+    <meta name="author" content="Yonghong Zhang">
+    <link rel="canonical" href="https://yonghongzhang-io.github.io/">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Yonghong Zhang">
+    <meta property="og:description" content="PhD candidate in economics at Universidad Autónoma de Madrid. Causal inference, climate policy evaluation, and the reliability of AI agents in empirical research.">
+    <meta property="og:url" content="https://yonghongzhang-io.github.io/">
+    <meta property="og:image" content="https://yonghongzhang-io.github.io/assets/og-cover.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+    <title>Yonghong Zhang</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
     <link rel="stylesheet" href="styles.css">
   </head>
+
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
     <header class="site-header">
       <nav class="nav" aria-label="Main navigation">
-        <a class="brand" href="#top" aria-label="Yonghong Zhang homepage">YZ</a>
+        <a class="brand" href="#top">Yonghong Zhang</a>
+
         <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#research">Research</a>
-          <a href="#papers">Selected Research</a>
+          <a href="#top">Home</a>
+          <a href="#papers">Papers</a>
           <a href="#projects">Projects</a>
-          <a href="#links">Links</a>
+          <a href="assets/Yonghong_Zhang_CV.pdf">CV</a>
         </div>
       </nav>
     </header>
 
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">Academic Homepage</p>
-          <h1 id="hero-title">Yonghong Zhang</h1>
-          <p class="role">PhD Candidate in Economics · Universidad Autónoma de Madrid</p>
-          <p class="tagline">
-            Verified AI for Empirical Research · Causal Inference · Climate &amp; Policy Evaluation
+    <div class="layout" id="top">
+      <!-- ------------------------------------------------------- sidebar -->
+      <aside class="sidebar">
+        <div class="avatar">
+          <img src="assets/avatar.jpg" alt="Portrait of Yonghong Zhang" width="464" height="464">
+        </div>
+
+        <p class="side-name">Yonghong Zhang</p>
+
+        <p class="side-keywords">
+          Causal Inference<br>
+          Climate Policy Evaluation<br>
+          AI Agent Reliability
+        </p>
+
+        <ul class="side-links">
+          <li>
+            <a href="mailto:yonghong.zhang@estudiante.uam.es">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="1.5"></rect><path d="m3.8 7 8.2 5.8L20.2 7"></path></svg>
+              Email
+            </a>
+          </li>
+          <li>
+            <a href="assets/Yonghong_Zhang_CV.pdf">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 3H6.5A1.5 1.5 0 0 0 5 4.5v15A1.5 1.5 0 0 0 6.5 21h11a1.5 1.5 0 0 0 1.5-1.5V8.5Z"></path><path d="M13.5 3v5.5H19"></path></svg>
+              CV
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/yonghongzhang-io" rel="me noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.6a9.4 9.4 0 0 0-3 18.3c.5.1.6-.2.6-.5v-1.7c-2.6.6-3.2-1.2-3.2-1.2-.4-1.1-1-1.4-1-1.4-.9-.6.1-.6.1-.6.9.1 1.4 1 1.4 1 .8 1.4 2.2 1 2.8.8a2 2 0 0 1 .6-1.3c-2.1-.2-4.3-1-4.3-4.6 0-1 .4-1.9 1-2.5-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.6 1a9 9 0 0 1 4.7 0c1.8-1.3 2.6-1 2.6-1 .5 1.3.2 2.3.1 2.6.6.6 1 1.5 1 2.5 0 3.6-2.2 4.4-4.3 4.6.3.3.6.9.6 1.8v2.7c0 .3.2.6.7.5A9.4 9.4 0 0 0 12 2.6Z"></path></svg>
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/yonghong-zhang" rel="me noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.6 9.4h3v10.1h-3zM6.1 4.6a1.7 1.7 0 1 0 0 3.5 1.7 1.7 0 0 0 0-3.5Z"></path><path d="M10.3 9.4h2.9v1.4a3.2 3.2 0 0 1 2.9-1.6c3 0 3.6 2 3.6 4.5v5.8h-3v-5.2c0-1.2 0-2.8-1.7-2.8s-2 1.4-2 2.7v5.3h-2.7Z"></path></svg>
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- ---------------------------------------------------------- main -->
+      <main id="main">
+        <section class="intro">
+          <h1>Yonghong Zhang</h1>
+          <p class="role">PhD Candidate in Economics &amp; Business, Universidad Autónoma de Madrid</p>
+
+          <p class="summary">
+            I am an applied economist working on causal inference for climate policy, and
+            on whether AI agents can carry out empirical research reliably rather than
+            merely describe it.
           </p>
-        </div>
 
-        <aside class="research-map" aria-label="Research focus overview">
-          <div class="map-node primary">
-            <span>Reliable Empirical Research</span>
-          </div>
-          <div class="map-grid">
-            <span>Causal Inference</span>
-            <span>Climate Policy</span>
-            <span>Agent Evaluation</span>
-            <span>Research Reliability</span>
-          </div>
-        </aside>
-      </section>
+          <hr>
 
-      <section id="about" class="section narrow" aria-labelledby="about-title">
-        <p class="section-label">About</p>
-        <h2 id="about-title">Research Profile</h2>
-        <p>
-          I am a PhD candidate at Universidad Autónoma de Madrid working at the
-          intersection of <strong>causal inference, climate and environmental policy,
-          and reliable AI for empirical research</strong>.
-        </p>
-        <p>
-          My work asks how empirical conclusions can remain trustworthy when research
-          workflows increasingly involve AI systems. I study both substantive policy
-          questions — especially carbon markets and climate policy — and the design of
-          execution-grounded agents and benchmarks that make AI-assisted research more
-          auditable, reproducible, and verifiable.
-        </p>
-      </section>
+          <p>
+            My empirical work studies China's emissions-trading pilots, asking whether
+            carbon markets deliver environmental co-benefits beyond CO₂. It uses
+            difference-in-differences and spatial econometrics on a 2004–2022 provincial
+            panel.
+          </p>
+          <p>
+            My methodological work asks a narrower question. When an LLM agent reports a
+            causal estimate, what was actually measured: the model, the scaffold around
+            it, or the scorer? I build benchmarks that separate the three, and auditing
+            tools that check identification assumptions against evidence rather than
+            assertion.
+          </p>
+          <p>
+            I am supervised by Ricardo Correia and Isabel María Parra Oller, and expect to
+            complete the PhD in early 2028. I am happy to hear about research visits and
+            collaborations.
+          </p>
 
-      <section id="research" class="section" aria-labelledby="research-title">
-        <p class="section-label">Research Interests</p>
-        <h2 id="research-title">Areas of Interest</h2>
-        <ul class="interest-list">
-          <li>Causal Inference</li>
-          <li>Environmental Economics</li>
-          <li>Climate Policy</li>
-          <li>Carbon Markets</li>
-          <li>AI Agent Evaluation</li>
-          <li>Execution-Grounded Research</li>
-        </ul>
-      </section>
+        </section>
 
-      <section id="papers" class="section" aria-labelledby="papers-title">
-        <p class="section-label">Selected Research</p>
-        <h2 id="papers-title">Research Themes &amp; Work in Progress</h2>
-        <div class="item-list">
-          <article class="item">
-            <h3>Do Carbon Markets Deliver Environmental Co-Benefits? Evidence from China's ETS Pilots</h3>
-            <p>
-              Causal evidence on carbon-market effects on CO₂ and conventional air
-              pollution, using difference-in-differences, event-study, and spatial analyses.
-            </p>
-          </article>
-          <article class="item">
-            <h3>Execution-Grounded Causal Inference</h3>
-            <p>
-              Benchmarking whether AI systems can move from causal claims to executable,
-              reproducible empirical workflows rather than producing plausible text alone.
-            </p>
-          </article>
-          <article class="item">
-            <h3>Reliable Evaluation of AI Agents</h3>
-            <p>
-              Studying evaluator validity, tool-use reliability, failure attribution, and
-              robustness under realistic research and data-access conditions.
-            </p>
-          </article>
-        </div>
-      </section>
+        <section id="awards" class="section">
+          <h2>Awards &amp; News</h2>
 
-      <section id="projects" class="section" aria-labelledby="projects-title">
-        <p class="section-label">Public Projects</p>
-        <h2 id="projects-title">Research Systems &amp; Demos</h2>
-        <div class="item-list project-list">
-          <article class="item">
-            <h3><a href="https://github.com/yonghongzhang-io/comtrade-openenv">ComtradeBench / OpenEnv</a></h3>
-            <p>
-              An execution-grounded benchmark for reliable LLM tool use under adversarial
-              and unreliable trade-data API conditions.
-            </p>
-          </article>
-          <article class="item">
-            <h3><a href="https://github.com/yonghongzhang-io/purple-agent-officeqa">OfficeQA Agent</a></h3>
-            <p>
-              A document-grounded retrieval and reasoning agent for U.S. Treasury Bulletin
-              question answering.
-            </p>
-          </article>
-          <article class="item">
-            <h3><a href="https://github.com/yonghongzhang-io/climate-claim-classifier">Climate Claim Classifier</a></h3>
-            <p>
-              A public research demo for structured and auditable classification of
-              climate-related claims.
-            </p>
-          </article>
-          <article class="item">
-            <h3><a href="https://github.com/yonghongzhang-io/phd_kb_starter">PhD Knowledge Base Starter</a></h3>
-            <p>
-              A lightweight LLM-powered research knowledge-base workflow for Claude Code
-              and Obsidian.
-            </p>
-          </article>
-        </div>
-      </section>
+          <h3 class="group">Awards</h3>
+          <ul class="record">
+            <li>
+              <span class="rank">1st place</span>
+              <span class="what">
+                <b>Best Defender</b>, <a href="https://rdi.berkeley.edu/agentx-agentbeats" rel="noopener">AgentBeats</a> ×
+                Lambda Security Arena (UC Berkeley RDI × Lambda), with Team MateFin.
+                A 91.4% defender win rate across 21 held-out adversarial runs.
+              </span>
+            </li>
+            <li>
+              <span class="rank">1st place</span>
+              <span class="what">
+                <b>Web Agent Track</b> (tie), <a href="https://rdi.berkeley.edu/agentx-agentbeats" rel="noopener">AgentX–AgentBeats</a>
+                Phase 1 at UC Berkeley RDI, a Google DeepMind-sponsored track, with
+                Team MateFin.
+              </span>
+            </li>
+            <li>
+              <span class="rank">2nd place</span>
+              <span class="what">
+                <b>OpenEnv Custom Track</b>, <a href="https://rdi.berkeley.edu/agentx-agentbeats" rel="noopener">AgentX–AgentBeats</a>
+                at UC Berkeley RDI, with Team MateFin.
+              </span>
+            </li>
+            <li>
+              <span class="rank">Accésit</span>
+              <span class="what">
+                <b>Best Poster</b>, UAM Doctoral Week, as the representative poster for
+                the Economics and Business doctoral programme.
+              </span>
+            </li>
+          </ul>
 
-      <section id="links" class="section" aria-labelledby="links-title">
-        <p class="section-label">Links</p>
-        <h2 id="links-title">Research Profiles &amp; Code</h2>
-        <ul class="link-list">
-          <li><a href="https://github.com/yonghongzhang-io">GitHub Profile</a></li>
-          <li><a href="https://github.com/yonghongzhang-io/comtrade-openenv">ComtradeBench</a></li>
-          <li><a href="https://github.com/yonghongzhang-io/purple-agent-officeqa">OfficeQA Agent</a></li>
-          <li><a href="https://github.com/yonghongzhang-io/climate-claim-classifier">Climate Claim Classifier</a></li>
-        </ul>
-      </section>
-    </main>
+          <h3 class="group">News</h3>
+          <ul class="record">
+            <li>
+              <span class="rank">2026</span>
+              <span class="what">
+                Selected for the <b>Machine Learning Summer School</b> (MLSS 2026),
+                Max Planck Institute for Intelligent Systems and the University of Tübingen.
+              </span>
+            </li>
+            <li>
+              <span class="rank">2026</span>
+              <span class="what">
+                Accepted presentations at the <b>Wolpertinger Conference</b> (Roma Tre
+                University) and <b>ICFAB</b> (University of Surrey, Sustainable Finance track).
+              </span>
+            </li>
+          </ul>
+        </section>
 
-    <footer class="site-footer">
-      <p>&copy; <span id="year">2026</span> Yonghong Zhang</p>
-    </footer>
+        <section id="papers" class="section">
+          <h2>Papers</h2>
+
+          <ol class="pub-list">
+            <li class="pub">
+              <h3>CausalVerify: An Execution-Grounded Benchmark for LLM Causal Inference Workflows</h3>
+              <p class="pub-authors"><strong>Yonghong Zhang</strong>, Ricardo Correia, Yong Xie, Isabel M. Parra</p>
+              <p class="pub-abstract">
+                Benchmarks frontier LLMs on causal-inference workflows, pairing method and
+                design interpretation with execution-grounded coefficient recovery.
+              </p>
+              <!-- Add the venue back once it is accepted, e.g. "Accepted, NeurIPS 2026". -->
+              <p class="pub-status">Under review</p>
+            </li>
+
+            <li class="pub">
+              <h3>The Double Measurement Confound in Agent Benchmarks: De-Scaffolding, Ground-Truth Scoring, and Reliability Beyond the Mean</h3>
+              <p class="pub-authors"><strong>Yonghong Zhang</strong> et al.</p>
+              <p class="pub-abstract">
+                Shows how agent benchmarks can mistakenly measure scaffolds and scorers
+                rather than model capability.
+              </p>
+              <p class="pub-status">Under review</p>
+            </li>
+
+            <li class="pub">
+              <h3>Evidence-Grounded Auditing of Identification Assumptions in Climate-Policy Causal Evaluations</h3>
+              <p class="pub-authors"><strong>Yonghong Zhang</strong>, Yong Xie, Isabel M. Parra, Ricardo Correia</p>
+              <p class="pub-abstract">
+                Introduces ARGUS, a bounded LLM auditing system for difference-in-differences
+                identification assumptions, using an assumption–implication–evidence rubric.
+              </p>
+              <p class="pub-status">Under review</p>
+            </li>
+
+            <li class="pub">
+              <h3>Do Carbon Markets Deliver Environmental Co-Benefits? Evidence from China's ETS Pilots</h3>
+              <p class="pub-authors"><strong>Yonghong Zhang</strong>, Ricardo Correia, Isabel M. Parra Oller</p>
+              <p class="pub-abstract">
+                Difference-in-differences with province and year fixed effects on a
+                2004–2022 panel, with spatial-spillover analysis.
+              </p>
+              <p class="pub-status">Working paper</p>
+            </li>
+          </ol>
+        </section>
+
+        <section id="projects" class="section">
+          <h2>Projects</h2>
+
+          <ul class="project-list">
+            <li>
+              <h3><a href="https://github.com/yonghongzhang-io/comtrade-openenv" rel="noopener">ComtradeBench / OpenEnv</a></h3>
+              <p>
+                An execution-grounded benchmark for reliable LLM tool use under adversarial
+                and unreliable trade-data API conditions.
+                <a class="aux" href="https://huggingface.co/spaces/yonghongzhang/comtrade-env" rel="noopener">Demo</a>
+              </p>
+            </li>
+            <li>
+              <h3><a href="https://github.com/yonghongzhang-io/purple-agent-officeqa" rel="noopener">OfficeQA Agent</a></h3>
+              <p>
+                A document-grounded retrieval and reasoning agent for U.S. Treasury Bulletin
+                question answering.
+              </p>
+            </li>
+            <li>
+              <h3><a href="https://github.com/yonghongzhang-io/climate-claim-classifier" rel="noopener">Climate Claim Classifier</a></h3>
+              <p>
+                Structured and auditable classification of climate-related claims.
+              </p>
+            </li>
+            <li>
+              <h3><a href="https://github.com/yonghongzhang-io/phd_kb_starter" rel="noopener">PhD Knowledge Base Starter</a></h3>
+              <p>
+                A lightweight LLM-powered research knowledge-base workflow for Claude Code
+                and Obsidian.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <footer class="site-footer">
+          <p>
+            <a href="mailto:yonghong.zhang@estudiante.uam.es">yonghong.zhang@estudiante.uam.es</a>
+            · Madrid, Spain
+          </p>
+          <p class="footer-meta">&copy; <span id="year">2026</span> Yonghong Zhang</p>
+        </footer>
+      </main>
+    </div>
+
+    <script src="app.js" defer></script>
   </body>
 </html>
