@@ -364,8 +364,16 @@ h3 {
 }
 
 .pub-status {
-  margin-bottom: 0;
+  margin-bottom: 5px;
   color: var(--accent);
+  font-size: 0.92rem;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 0;
   font-size: 0.92rem;
 }
 
