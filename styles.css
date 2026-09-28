@@ -377,6 +377,13 @@ h3 {
   font-size: 0.92rem;
 }
 
+.pub-discussions {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
 /* Projects */
 
 .project-list {
