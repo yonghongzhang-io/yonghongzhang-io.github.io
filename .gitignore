@@ -2,3 +2,6 @@
 assets/257.PNG
 
 .DS_Store
+
+# local preview config
+.claude/
